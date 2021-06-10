@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myRadio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+	<script src="radio.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="Container">
+        <div class="w-100" style="background-image: url(../images/assets-bg.png);">
+            <div class="container mt-4">
+                <img src="../images/logo.png" alt="" class="">
+                <div style="background-image: url(../images/assets-bg.png);" class="sticky-top">
+                    <nav class="navbar navbar-expand-md navbar-light mt-2">
+                        <button class="navbar-toggler d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav mr-auto mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" style="color:#8B18FF!important" href="#"> <i class="fa fa-headphones" aria-hidden="true"></i> Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fa fa-headphones mr-1" aria-hidden="true"></i>About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fa fa-headphones" aria-hidden="true"></i> Show Schedule </a>
+                                </li>
+                                <li class="nav-item dropdown" id="float">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa mr-1 fa-headphones" aria-hidden="true"></i>Pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                              
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa mr-1 fa-headphones" aria-hidden="true"></i>Blog</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fa fa-headphones" aria-hidden="true"></i> Contact Us </a>
+                                </li>
+                                <input type="submit" class="btn btn-lg form-control w-25 navButton btn-outline-success" value="Become a Sponsor">
+                            </ul>
+                        </div>
+                        <div class="roundBar animate__animated animate__headShake animate__infinite animate__slow d-none d-md-block">
+                            <a href="">
+                                <i class="fa fa-play text-white fa-3x" aria-hidden="true" style="position: absolute; left: 45%; top: 40%;"></i>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselId" class="carousel-fade mt-5" data-ride="carousel" data-interval="2000">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active banner1">
+                        <h1 class="fmName text-center shadow text-white">PRAISE COMM'S - 707.7</h1>
+                        <h4 class="mt-3 fmName2 text-white text-center">Listen with the ears & understand with the heart</h4>
+                        <center>
+                            <button class="btn btn-lg text-white p-3 pr-4 pl-4 mt-5 mr-auto" style="background-color: #8B18FF;"><i class="fa fa-eye" aria-hidden="true"></i> LIVE ON YOUTUBE</button>
+                        </center>
+                </div>
+                <div class="carousel-item banner2">
+                    <h1 class="fmName text-center shadow text-white">PRAISE COMM'S - 707.7</h1>
+                    <h4 class="mt-3 fmName2 text-white text-center">Listen with the ears & understand with the heart</h4>
+                    <center>
+                        <button class="btn btn-lg text-white p-3 pr-4 pl-4 mt-5 mr-auto" style="background-color: #8B18FF;"><i class="fa fa-eye" aria-hidden="true"></i> LIVE ON YOUTUBE</button>
+                    </center>
+                </div>
+                <div class="carousel-item banner3">
+                    <h1 class="fmName text-center shadow text-white">PRAISE COMM'S - 707.7</h1>
+                    <h4 class="mt-3 fmName2 text-white text-center">Listen with the ears & understand with the heart</h4>
+                    <center>
+                        <button class="btn btn-lg text-white p-3 pr-4 pl-4 mt-5 mr-auto" style="background-color: #8B18FF;"><i class="fa fa-eye" aria-hidden="true"></i> LIVE ON YOUTUBE</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-image: url(../images/back.png);">
+            <div class="container mt-5 pt-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-5">
+                        <img src="../images/about-1.jpg" class="rounded-circle w-75 about1" alt="">
+                        <img src="../images/about-2.jpg" class="rounded-circle w-50 about2" alt="">
+                    </div>
+    
+                    <div class="col-12 col-md-6 p-5">
+                        <p><span class="font-weight-bolder prsTxt">PRAISE</span><span> some About</span></p>
+                        <p class="text-muted h5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quasi! Vitae, cum neque aspernatur quidem labore, quo asperiores repellat possimus autem soluta consequatur unde at, necessitatibus eligendi! Assumenda, ullam totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus explicabo, maiores ad eveniet a incidunt, in aliquid accusantium nemo velit, autem officia voluptate?</p>
+    
+                        <p class="text-muted h5 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quasi! Vitae, cum neque aspernatur quidem labore, quo asperiores repellat possimus autem soluta consequatur unde at, necessitatibus eligendi! Assumenda, tem officia voluptate?</p>
+                        <p class="mt-3">
+                            <i class="fa fa-fast-forward mr-5" aria-hidden="true"><span class="ml-3">SInce 2000</span></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <p class="h1 font-weight-bolder text-center" style="color: #8B18FF;">Show Schedule</p>
+            <center><div class="rounded" style="width: 90px; height: 10px; background-color: #8B18FF;"></div>
+            <div class="rounded mt-1" style="width: 50px; height: 5px; background-color: #8B18FF;"></div>
+            <div class="rounded mt-1" style="width: 20px; height: 2px; background-color: #8B18FF;"></div>
+            </center>
+            <div id="show-menu" class="mt-5">
+                <ul class="d-flex border-bottom">
+                    <li><a href="" class="h5 ml-3 p-2 rounded text-white" style="background-color: #8B18FF;">SATURDAY</a></li>
+                    <li><a href="" class="h5 ml-3">SUNDAY</a></li>
+                    <li><a href="" class="h5 ml-4">MONDAY</a></li>
+                    <li><a href="" class="h5 ml-3">TUESDAY</a></li>
+                    <li><a href="" class="h5 ml-3">WEDNESDAY</a></li>
+                    <li><a href="" class="h5 ml-3">THURSDAY</a></li>
+                    <li><a href="" class="h5 ml-3">FRIDAY</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card1 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4 shoimg">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-1.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-2.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    <img src="../images/host-3.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card2 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                            <img src="../images/sound.gif" alt="" id="sound" class="rounded-circle">
+                        </div>
+                    <img src="../images/host-4.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card3 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-5.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-6.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card4 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-1.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-2.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    <img src="../images/host-3.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card5 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-1.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-2.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    <img src="../images/host-3.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card6 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-6.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-3.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card7 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-7.jpg" class="rounded-circle w-25 hostimg1" alt="">
+                    <img src="../images/host-3.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    <img src="../images/host-8.jpg" class="rounded-circle w-25 hostimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                    <div class="card w-100 card8 mt-5 shadow">
+                        <div class="text-center text-white mt-5  font-weight-bolder h4">
+                            <p>08:00 - 10:00pm</p>
+                            <p>Tiny Time Talks</p>
+                        </div>
+                    <img src="../images/host-8.jpg" class="rounded-circle w-25 hostimg2" alt="">
+                    </div>
+                </div>
+            </div>
+            <center>
+                <button class="shadow p-3 btnp">
+                    <i class="fas fa-eye"></i>
+                    Show More
+                </button>
+            </center>
+        </div>
+        
+        <div class="container mt-5">
+            <p class="h1 font-weight-bolder text-center" style="color: #8B18FF;">Introduce Our Team</p>
+            <center><div class="rounded" style="width: 90px; height: 10px; background-color: #8B18FF;"></div>
+            <div class="rounded mt-1" style="width: 50px; height: 5px; background-color: #8B18FF;"></div>
+            <div class="rounded mt-1" style="width: 20px; height: 2px; background-color: #8B18FF;"></div>
+            </center>
+
+            <div class="carousel slide" data-ride="carousel"  data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mt-5">
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-1.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-2.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-3.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3 d-none d-md-block">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-4.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                        </div>                      
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mt-5">
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-1.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-2.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-3.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                            <div class="col-12 col-sm-4 col-md-3 d-none d-md-block">
+                                <div class="card sho border-0 shadow">
+                                    <img src="../images/team-4.jpg" alt="" class="card-img rounded shoimg">
+                                    <div class="text-center fa-team">
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                        <i class="fa fa-asterisk fa-2x ml-1" aria-hidden="true"></i>
+                                    </div>
+                                </div>  
+                                <p class="card-title text-center mt-3">OYEGBILE PRAISE</p>
+                                <p class="card-subtitle text-center font-italic">Software Engr.</p>
+                            </div>    
+                        </div>                      
+                    </div>
+                    </div>
+                    <center>
+                        <button class="shadow p-3 btnp">
+                            <i class="fas fa-eye"></i>
+                            Show More
+                        </button>
+                    </center>
+                </div>
+            </div>
+        <div>
+    </div>
+</body>
+</html>
